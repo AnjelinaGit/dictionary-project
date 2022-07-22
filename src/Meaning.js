@@ -1,4 +1,3 @@
-import { className } from "postcss-selector-parser";
 import React from "react";
 
 export default function Meaning(props) {
