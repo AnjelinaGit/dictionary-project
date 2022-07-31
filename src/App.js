@@ -11,8 +11,26 @@ export default function App() {
       <main>
         <Dictionary defaultKeyword="sunset" />
       </main>
+
       <footer className="App-footer">
-        <small>Coded by Anjelina Kabul</small>
+        {" "}
+        This project was coded by{" "}
+        <a
+          href="https://glowing-centaur-a1d5b1.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Anjelina Kabul
+        </a>{" "}
+        and is{" "}
+        <a
+          href="https://github.com/AnjelinaGit/dictionary-project"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {" "}
+          open-sourced on GitHub
+        </a>
       </footer>
     </div>
   );
